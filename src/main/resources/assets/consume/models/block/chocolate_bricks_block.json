@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "consume:block/chocolate_bricks_block"
+  }
+}

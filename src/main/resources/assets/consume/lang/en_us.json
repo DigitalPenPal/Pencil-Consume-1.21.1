@@ -1,9 +1,13 @@
 {
   "creativetab.consume.consume_items": "Foods and Drinks",
+  "creativetab.consume.consume_blocks": "Foods Blocks",
 
   "item.consume.blueberries": "Blueberries",
+  "item.consume.sweet_berry_juice": "Sweet Berry Juice",
   "item.consume.golden_sweet_berries": "Golden Sweet Berries",
   "item.consume.golden_beetroot": "Golden Beetroot",
   "item.consume.golden_potato": "Golden Potato",
-  "item.consume.chocolate": "Chocolate"
+  "item.consume.chocolate": "Chocolate",
+
+  "block.consume.chocolate_bricks_block": "Chocolate Bricks"
 }

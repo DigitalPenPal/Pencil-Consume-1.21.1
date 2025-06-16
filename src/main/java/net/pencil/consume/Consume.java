@@ -1,6 +1,7 @@
 package net.pencil.consume;
 
 import net.minecraft.world.item.CreativeModeTabs;
+import net.pencil.consume.block.MoBlocks;
 import net.pencil.consume.item.MoCreativeModeTabs;
 import net.pencil.consume.item.MoItems;
 import org.slf4j.Logger;
@@ -41,6 +42,7 @@ public class Consume {
         MoCreativeModeTabs.register(modEventBus);
 
         MoItems.register(modEventBus);
+        MoBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -56,7 +58,7 @@ public class Consume {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-            event.accept(MoItems.BLUEBERRIES);
+
         }
     }
 
