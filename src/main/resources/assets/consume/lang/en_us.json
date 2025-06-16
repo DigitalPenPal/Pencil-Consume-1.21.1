@@ -1,3 +1,9 @@
 {
-  "item.consume.blueberries": "Blueberries"
+  "creativetab.consume.consume_items": "Foods and Drinks",
+
+  "item.consume.blueberries": "Blueberries",
+  "item.consume.golden_sweet_berries": "Golden Sweet Berries",
+  "item.consume.golden_beetroot": "Golden Beetroot",
+  "item.consume.golden_potato": "Golden Potato",
+  "item.consume.chocolate": "Chocolate"
 }

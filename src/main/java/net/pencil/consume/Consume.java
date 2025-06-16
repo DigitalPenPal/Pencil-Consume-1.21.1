@@ -1,7 +1,8 @@
 package net.pencil.consume;
 
 import net.minecraft.world.item.CreativeModeTabs;
-import net.pencil.consume.item.ModItems;
+import net.pencil.consume.item.MoCreativeModeTabs;
+import net.pencil.consume.item.MoItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -37,7 +38,9 @@ public class Consume {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
-        ModItems.register(modEventBus);
+        MoCreativeModeTabs.register(modEventBus);
+
+        MoItems.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -53,7 +56,7 @@ public class Consume {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-            event.accept(ModItems.BLUEBERRIES);
+            event.accept(MoItems.BLUEBERRIES);
         }
     }
 
