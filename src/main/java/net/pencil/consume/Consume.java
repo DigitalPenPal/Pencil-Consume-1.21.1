@@ -1,6 +1,7 @@
 package net.pencil.consume;
 
 import net.minecraft.world.item.CreativeModeTabs;
+import net.pencil.consume.achievement.MoAdvancements;
 import net.pencil.consume.block.MoBlocks;
 import net.pencil.consume.item.MoCreativeModeTabs;
 import net.pencil.consume.item.MoItems;
@@ -43,6 +44,8 @@ public class Consume {
 
         MoItems.register(modEventBus);
         MoBlocks.register(modEventBus);
+
+        MoAdvancements.register();
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

@@ -8,6 +8,12 @@ public class MoFoodProperties {
 
     public static final FoodProperties BLUEBERRIES = new FoodProperties.Builder().nutrition(2).saturationModifier(0.1F).build();
 
+    public static final FoodProperties POISONOUS_APPLE = new FoodProperties.Builder()
+            .nutrition(3).saturationModifier(0.15F)
+            .effect(new MobEffectInstance(MobEffects.POISON, 160, 1), 1.0F)
+            .effect(new MobEffectInstance(MobEffects.HUNGER, 220, 1), 1.0F)
+            .build();
+
     public static final FoodProperties GOLDEN_SWEET_BERRIES = new FoodProperties.Builder().
             nutrition(4).saturationModifier(0.3F)
             .effect(new MobEffectInstance(MobEffects.REGENERATION, 100, 1), 1.0F)

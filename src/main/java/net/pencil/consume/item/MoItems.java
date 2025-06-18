@@ -14,6 +14,9 @@ public class MoItems {
     public static final DeferredItem<Item> BLUEBERRIES = ITEMS.register("blueberries",
             () -> new Item(new Item.Properties().food(MoFoodProperties.BLUEBERRIES)));
 
+    public static final DeferredItem<Item> POISONOUS_APPLE = ITEMS.register("poisonous_apple",
+            () -> new Item(new Item.Properties().food(MoFoodProperties.POISONOUS_APPLE)));
+
     public static final DeferredItem<Item> SWEET_BERRY_JUICE = ITEMS.register("sweet_berry_juice",
             () -> new sweet_berry_juice(new Item.Properties()));
 

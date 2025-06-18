@@ -23,6 +23,7 @@ public class MoCreativeModeTabs {
                     .displayItems((parameters, output) -> {
 
                         output.accept(MoItems.BLUEBERRIES);
+                        output.accept(MoItems.POISONOUS_APPLE);
                         output.accept(MoItems.SWEET_BERRY_JUICE);
                         output.accept(MoItems.GOLDEN_SWEET_BERRIES);
                         output.accept(MoItems.GOLDEN_BEETROOT);

@@ -8,6 +8,11 @@
   "item.consume.golden_beetroot": "Golden Beetroot",
   "item.consume.golden_potato": "Golden Potato",
   "item.consume.chocolate": "Chocolate",
+  "item.consume.poisonous_apple": "Poisonous Apple",
 
-  "block.consume.chocolate_bricks_block": "Chocolate Bricks"
+  "block.consume.chocolate_bricks_block": "Chocolate Bricks",
+
+  "advancement.consume.golden_potato.title": "YOU LOSE, SQUID!",
+  "advancement.consume.golden_potato.description": "Obtain the legendary Golden Potato - the ultimate farming achievement the great Techno would be proud of!"
+
 }
